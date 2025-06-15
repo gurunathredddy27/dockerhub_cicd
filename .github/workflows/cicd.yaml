@@ -1,5 +1,8 @@
-name: CI/CD for Dockerized Flask App
 
+#.yml files define automation workflows like testing, 
+#building, and deploying code
+
+name: CI/CD for Dockerized Flask App
 on:
   push:
     branches: [ main ]
